@@ -1,0 +1,582 @@
+:root {
+    --dark: rgb(15, 9, 14);
+    --light:aliceblue;
+    --dark2:rgb(42, 7, 37);
+    --fontfamily:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --greyish:rgb(119, 119, 119);
+}
+
+body {
+    background-color:rgb(227, 225, 225);
+}
+
+/* Header */
+.section1 {
+    padding: 100px 0px;
+    font-family: var(--fontfamily);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    background-image: url(../image/clouds2.png);
+    background-size: 100%;
+}
+
+h1 {
+    font-size: 350%;
+    position:relative;
+    align-items: center;
+    color: var(--dark);
+    z-index: 1;
+}
+
+.box {
+    background-color:rgb(176, 176, 176);
+    padding: 10px 10px 20px 100px;
+    border: 3px solid #1d1a1e;
+    z-index: 1;
+}
+
+h2 {
+    font-size: 150%;
+    position: relative;
+    right: 340px;
+    top: 63px;
+    color: var(--dark2);
+    z-index:1;  
+}
+/* END of header */
+
+/* NAVIGATION BAR */
+.navbar {
+    position:sticky;
+    top:0px;
+    z-index: 3;
+    border: 1px solid #1d1a1e;
+}
+
+.navbar ul {
+ 
+    margin: 0 ;
+    text-align: center;
+    background-color: rgb(176, 176, 176);;
+    padding: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 0 120px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-family: var(--fontfamily);
+    font-size: 140%;
+    color: var(--dark);
+}
+
+
+/* nav bar interactions */
+.navbar .about:hover {
+    cursor: grab;
+    text-decoration: underline;
+}
+
+.navbar .about:active {
+    cursor:grabbing;
+    color: var(--light);
+    font-size: larger;
+}
+
+.navbar .works:hover {
+    cursor: grab;
+    text-decoration: underline;
+}
+
+.navbar .works:active {
+    cursor:grabbing;
+    color: var(--light);
+    font-size: larger;
+}
+.navbar .contacts:hover {
+    cursor: grab;
+    text-decoration: underline;
+}
+
+.navbar .contacts:active {
+    cursor:grabbing;
+    color: var(--light);
+    font-size: larger;
+}
+.navbar .resume:hover {
+    cursor: grab;
+    text-decoration: underline;
+}
+
+.navbar .resume:active {
+    cursor:grabbing;
+    color: var(--light);
+    font-size: larger;
+}
+
+/* end of navbar/ interactions */
+
+/* About Keira Section */
+.keira {
+    margin: 50px 50px;
+    display: flex;
+    position: relative;
+}
+
+.keira h3 {
+    color:#1d1a1e;
+    font-family: var(--fontfamily);
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    position: absolute;
+    top:40px;
+}
+/* vertical line for styling of webpage */
+.vl {
+    border: 4px solid var(--dark);
+    height: 200px;
+    position: absolute;
+    left:150px;
+    top:40px;   
+}
+/* vertical line for styling of webpage */
+
+.imgkeira {
+    height:350px;
+    position: absolute;
+    top: 50px;
+    right: -10px;
+    border-radius: 15%;
+    border: 4px solid var(--dark);
+}
+
+.keira p {
+    /* MAKE SURE TO READGUST REGULAR WEBAGE TO LAPTOP SCREEN SIZE */
+    position: absolute;
+    left: 180px;
+    width: 760px;
+    top: 40px;
+    font-family: var(--fontfamily);
+    font-size: 25px;
+    text-align: justify;
+    /* text-align justify squares the box so text fills square */
+}
+/* added a bold font to one section of the paragraph */
+b {
+    font-weight: bolder;
+}
+/* End of about Keira Section */
+
+/* section to demonstrate projects */
+.work {
+   display:flex;
+   position: relative;
+   top: 500px;
+   width:1390px;
+}
+
+/* vertical line for styling of webpage */
+.work .vl {
+    left: 200px;
+    top: 0px;
+}
+/* vertical line for styling of webpage */
+
+.work h3 {
+    color:#1d1a1e;
+    font-family: var(--fontfamily);
+    font-size: 300%;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    position: absolute;
+    top:0px;
+    left: 50px;
+}
+
+
+
+.container {
+    display:flex;
+    width: 900px;
+    height: 900px;
+    margin-left:230px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.otherbox {
+    margin: 0.5em;
+    width: 400px;
+}
+
+
+.box1 {
+    flex-basis: 900px;
+    
+}
+
+.img1 {
+    max-width: 885px;
+    border: 2px solid black;
+}
+
+
+.img2 {
+    max-width: 410px;
+    border: 2px solid black;
+}
+
+.otherbox header {
+    position: absolute;
+    font-family: var(--fontfamily);
+    padding: 10px;
+    background-color: var(--greyish);
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bolder;
+    font-size:xx-large;
+}
+
+/* Resume Section */
+.cv {
+    display: flex;
+    position:relative;
+    top: 800px;
+}
+
+.mycv {
+    position: absolute;
+    color:#1d1a1e;
+    font-family: var(--fontfamily);
+    font-size: 300%;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    top:0px;
+    left: 20px;
+    
+}
+
+/* again to add style with vertical line */
+.cv .vl {
+    left: 200px;
+    top: 0px;
+}
+
+/* my resume, which is embedded onto the webpage to view */
+#pdf {
+    margin:auto;
+    width: 65%;
+    height:800px;
+}
+/* end of resume section */
+
+/* Contact info */
+.bottom-box {
+    display:flex;
+    position: relative;
+    top: 900px;
+    width:100vw;
+    font-family: var(--fontfamily);
+    font-size: 150%;
+}
+
+.contactme {
+    position: absolute;
+    color:#1d1a1e;
+    font-family: var(--fontfamily);
+    font-size: 200%;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    top:0px;
+    left: 15px;
+}
+
+.bottom-box .vl {
+    left: 200px;    
+    top: 0px;
+}
+
+/* interactions with contact links with cursor */
+#github:hover {
+    cursor: grab;
+    text-decoration: underline;
+}
+
+#github:active {
+    cursor:grabbing;
+    color: var(--light);
+    font-size: larger;
+}
+
+#email:hover {
+    cursor: grab;
+    text-decoration: underline;
+}
+
+#email:active {
+    cursor:grabbing;
+    color: var(--light);
+    font-size: larger;
+}
+
+.hoverfortooltip:hover {
+    cursor:pointer;
+    text-decoration: underline;
+}
+/* end of interactions */
+
+.links {
+    margin: 0 auto;
+}
+
+.links ul {
+    height: 100%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.links ul li {
+    display: inline;
+    padding: 0px 100px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    font-family:var(--fontfamily);
+    font-size: 100%;
+    color: var(--dark);
+}
+
+/* Tooltip interactions with contacts */
+/* CREDIT from https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip date: August 17 2023 for TOOLTIP */
+
+/* phone number */
+.hoverfortooltip {
+    position: relative;
+}
+
+.hoverfortooltip .text {
+    visibility:hidden;
+    position: absolute;
+    width: 120px;
+    background-color:var(--dark2);
+    color: var(--light);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    top: 30px;
+    right: 120px;
+    z-index: 1;
+    font-size: small;
+
+}
+
+.hoverfortooltip:hover .text {
+    visibility: visible;
+}
+
+/* phone number */
+
+/* email */
+
+.email2 {
+    position: relative;
+}
+
+.email2 .text {
+    visibility:hidden;
+    position: absolute;
+    width: 200px;
+    background-color: var(--dark2);
+    color: var(--light);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    top: 30px;
+    left: 2px;
+    z-index: 1;
+    font-size: small;
+
+}
+
+.email2:hover .text {
+    visibility: visible;
+}
+
+/* email */
+
+/* github */
+.username {
+    position: relative;
+}
+
+.username .text {
+    visibility:hidden;
+    position: absolute;
+    width: 200px;
+    background-color:var(--dark2);
+    color: var(--light);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    top: 30px;
+    left: 2px;
+    z-index: 1;
+    font-size: small;
+}
+
+.username:hover .text {
+    visibility: visible;
+}
+/* github */
+/* end of tooltips */
+
+/* FOOTER */
+footer {
+    color: var(--light);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 1000px;
+    font-family:var(--fontfamily);
+    padding: 20px;
+    background-color: #251e2a; 
+    font-size: 110%;
+}
+/* END of footer */
+
+
+/* may not use  */
+
+@media screen and (max-width: 1375px) {
+    .imgkeira {
+        visibility:hidden;
+    }
+
+    .navbar ul li a {
+        margin: 0px;
+    }
+
+    .links ul li{
+        display: block;
+        padding: 0px;
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+    
+    .vl {
+        visibility: hidden;
+    }
+} 
+
+
+@media screen and (max-width: 1150px) {
+    .navbar ul li {
+        padding-left: 5px;
+        padding-right: 5px;
+        display: block;
+        flex-wrap: wrap;
+    }
+    h2 {
+        visibility: hidden;
+    }
+    h1 {
+        font-size:30px;
+    }
+    .box {
+        padding-left:0%;
+    }
+}
+
+@media screen and (max-width: 1162px) {
+    .keira p {
+        font-size: 20px;
+    
+        width: 600px;
+    
+        
+    }
+    #About-Keira {
+        font-size: 25px;
+        top: -15px;
+    }
+
+    #Her-Work {
+        font-size: 25px;
+        top: -50px;
+    }
+
+    #Resume {
+        font-size: 25px;
+        top: 70px;
+    }
+
+    #Contact-Keira{
+        font-size: 25px;
+        top: -15px;
+    }
+
+    .vl {
+        visibility: hidden;
+    }
+    
+    #pdf {
+        height:400px;
+        width: auto;
+      
+    }
+
+    .container {
+        width:700px;
+        height:700px;
+    }
+
+    .otherbox .img1 {
+        width: 48%;
+    }
+
+    .otherbox .img2 {
+        width: 82%;
+      
+    }
+
+    .otherbox header {
+        font-size: small;
+        padding: 3px;
+    }
+}
+
+
+@media screen and (max-width: 841px){
+    .keira p {
+        width: 95%;
+        left:auto;
+    }
+    .mycv {
+        visibility: hidden;
+    }
+
+    .container {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .keira p {
+        width: 95%;
+        left:auto;
+        margin: 0%;
+        font-size: 14px;
+    }
+}
