@@ -591,3 +591,11 @@ footer {
         width: auto;
     }
 }
+
+@media screen and (max-width: 649px) {
+    .section1 {
+    background-image: url(../image/clouds2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    }
+}
