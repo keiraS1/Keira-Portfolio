@@ -8,12 +8,14 @@ The Webpage represents my work, as well as my contact information, resume and a 
 ![Keira Portfolio, Web Development](./image/Portfolioscreenshot.png)
 
 
+Webpage URL : https://keiras1.github.io/Keira-Portfolio/
+
 
 ## Usage 
 
 The purpose for this webpage is to show employers my work, new and improved. Here you can explore the different projects I have worked on, collaborated on and refactored. This is the beginning of my web development portfolio, therefore there will be more content updated periodically.
 
-This Portfolio 'assigment' as of August 20 2023 is best suited for: Samsung Galaxy A51/71, iPhone SE, iPhone XR, Iphone 12 Pro,Pixel 5, Samsung Galaxy S8+, Samsung Galaxy S20 Ultra, Nest Hub, in terms of dimensions. Will be suitable for a wider range- comoing soon.
+This Portfolio 'assigment' as of August 20 2023 is best suited for: Samsung Galaxy A51/71, iPhone SE, iPhone XR, Iphone 12 Pro,Pixel 5, Samsung Galaxy S8+ and Samsung Galaxy S20 Ultra, in terms of dimensions. Will be suitable for a wider range- comoing soon.
 
 
 ## Credit

@@ -178,7 +178,7 @@ b {
    display:flex;
    position: relative;
    top: 500px;
-   width:1390px;
+   /* width:1390px; */
 }
 
 /* vertical line for styling of webpage */
@@ -203,7 +203,7 @@ b {
 
 .container {
     display:flex;
-    width: 900px;
+    /* width: 900px; */
     height: 900px;
     margin-left:230px;
     flex-direction: row;
@@ -214,12 +214,13 @@ b {
 
 .otherbox {
     margin: 0.5em;
-    width: 400px;
+    /* width: 400px; */
 }
 
 
 .box1 {
     flex-basis: 800px;
+    width: 400px;
 }
 
 /* main image at top */
@@ -547,11 +548,11 @@ footer {
     }
 
     .otherbox .img1 {
-        width: 48%;
+        width: 70%;
     }
 
     .otherbox .img2 {
-        width: 82%;
+        width: 70%;
       
     }
 
@@ -582,5 +583,11 @@ footer {
         left:auto;
         margin: 0%;
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 446px) {
+    .otherbox {
+        width: auto;
     }
 }
