@@ -10,7 +10,7 @@ body {
     background-color:rgb(227, 225, 225);
 }
 
-/* Header */
+/* Header contains h1 and h2 with a background image*/
 .section1 {
     padding: 100px 0px;
     font-family: var(--fontfamily);
@@ -29,6 +29,7 @@ h1 {
     z-index: 1;
 }
 
+/* refers to the box h1 is in */
 .box {
     background-color:rgb(176, 176, 176);
     padding: 10px 10px 20px 100px;
@@ -55,13 +56,12 @@ h2 {
 }
 
 .navbar ul {
- 
-    margin: 0 ;
+    margin: 0;
     text-align: center;
     background-color: rgb(176, 176, 176);;
     padding: 20px;
 }
-
+/* navbar should be completely horizontal on desktop webpage size */
 .navbar ul li {
     display: inline;
     padding: 0 120px;
@@ -75,7 +75,7 @@ h2 {
 }
 
 
-/* nav bar interactions */
+/* nav bar interactions hovering and clicking the links*/
 .navbar .about:hover {
     cursor: grab;
     text-decoration: underline;
@@ -146,6 +146,7 @@ h2 {
 }
 /* vertical line for styling of webpage */
 
+/* image to for employees to see who I am, will disappear with change in width to the page */
 .imgkeira {
     height:350px;
     position: absolute;
@@ -218,15 +219,14 @@ b {
 
 
 .box1 {
-    flex-basis: 900px;
-    
+    flex-basis: 800px;
 }
 
+/* main image at top */
 .img1 {
-    max-width: 885px;
+    max-width: 825px;
     border: 2px solid black;
 }
-
 
 .img2 {
     max-width: 410px;
@@ -251,6 +251,7 @@ b {
     top: 800px;
 }
 
+/* header of resume section */
 .mycv {
     position: absolute;
     color:#1d1a1e;
@@ -287,6 +288,8 @@ b {
     font-size: 150%;
 }
 
+
+/* header of contact info */
 .contactme {
     position: absolute;
     color:#1d1a1e;
@@ -298,6 +301,7 @@ b {
     left: 15px;
 }
 
+/* repeat of styling */
 .bottom-box .vl {
     left: 200px;    
     top: 0px;
@@ -332,6 +336,7 @@ b {
 }
 /* end of interactions */
 
+/* links to contact  */
 .links {
     margin: 0 auto;
 }
@@ -456,8 +461,7 @@ footer {
 /* END of footer */
 
 
-/* may not use  */
-
+/* changing screen width */
 @media screen and (max-width: 1375px) {
     .imgkeira {
         visibility:hidden;
